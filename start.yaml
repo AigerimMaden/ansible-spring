@@ -1,0 +1,6 @@
+---
+- hosts: all
+
+  tasks:
+  - name: Start Spring
+    shell: "./mvnw spring-boot:run"
