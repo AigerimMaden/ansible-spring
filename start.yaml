@@ -2,5 +2,5 @@
 - hosts: all
 
   tasks:
-  - name: Start Spring
-    shell: "java -jar target/*.jar"
+  - name: run mvn
+    shell: "sudo mvn spring-boot:run"
