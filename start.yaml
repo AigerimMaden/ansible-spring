@@ -11,5 +11,5 @@
 
   tasks:
   - name: start spring
-    shell: java -jar target/*.jar
+    shell: java -jar target/spring-petclinic-2.3.0.BUILD-SNAPSHOT.jar
 
