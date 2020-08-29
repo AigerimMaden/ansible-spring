@@ -3,4 +3,4 @@
 
   tasks:
   - name: Start Spring
-    shell: "./mvnw"
+    shell: "java -jar target/*.jar"
