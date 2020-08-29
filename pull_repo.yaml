@@ -4,6 +4,8 @@
   tasks:
   - name: Pull Flaskex
     git:
-      repo: "SPRING_REPO"
-      version: "SPRING_BRANCH"
+      repo: "spring_repo"
+      version: "spring_branch"
       dest: /var/www/spring/
+  vars_files:
+    - '/root/workspace/ansible-spring/group_vars/vars'
