@@ -1,6 +1,4 @@
-- hosts: server
-  roles:
-    - role: geerlingguy.java
-      when: "ansible_os_family == 'RedHat'"
-      java_packages:
-        - java-1.8.0-openjdk
+---
+
+- hosts: all
+  command: yum install java-1.8.0-openjdk-devel -y
