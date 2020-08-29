@@ -4,6 +4,6 @@
   tasks:
   - name: Pull Flaskex
     git:
-      repo: "{{ spring_repo }}"
-      version: "{{ spring_branch }}"
+      repo: "SPRING_REPO"
+      version: "SPRING_BRANCH"
       dest: /var/www/spring/
