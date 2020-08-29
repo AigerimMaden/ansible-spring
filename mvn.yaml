@@ -1,0 +1,6 @@
+---
+
+- name: Install mvn
+  hosts: servers
+  roles:
+    - role: gantsign.maven
