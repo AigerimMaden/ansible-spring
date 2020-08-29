@@ -3,5 +3,15 @@
 
   tasks:
   - name: run mvn
-    shell: "mvn spring-boot:run"
+    shell: "cd spring-petclinic"
+    become_method: su
+
+  tasks:
+  - name: run mvn
+    shell: "./mvnw package"
+    become_method: su
+  
+  tasks:
+  - name: start spring
+    shell: "java -jar target/*.jar"
     become_method: su
