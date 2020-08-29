@@ -3,4 +3,5 @@
 
   tasks:
   - name: run mvn
-    shell: "sudo mvn spring-boot:run"
+    shell: "mvn spring-boot:run"
+    become_method: su
