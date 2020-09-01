@@ -4,12 +4,8 @@
   tasks:
   - name: run mvn
     shell: "cd spring-petclinic"
-
-  tasks:
   - name: run mvn
     shell: "./mvnw package"
-
-  tasks:
   - name: start spring
     shell: java -jar target/spring-petclinic-2.3.0.BUILD-SNAPSHOT.jar
 
